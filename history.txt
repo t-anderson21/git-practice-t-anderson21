@@ -1,0 +1,150 @@
+  512  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+  517  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+  873  $ brew install git
+  874  brew install git
+  875  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  876  $ brew install git
+  877  git --version
+  884  git config --global user.name “Talmage Anderson”
+  886  git config --list
+  887  git config --global user.email “talmage.anderson17@com”
+  888  git config --list
+  890  git config --list
+  891  git config --global core.editor "code --wait"
+  892  git config --global init.defaultBranch main
+  893  git config --list
+  894  mkdir git-practice-tka
+  896  cd git-practice-tka
+  898  git init
+  902  git add file1.txt
+  903  git status
+  904  git commit -m "First commit"
+  905  git log
+  907  git status
+  908  git add .
+  909  git commit -m 'Rename file'
+  911  git status
+  923  cd git-practice-tka
+  924  git status
+  934  cd git-practice-tka
+  938  git status
+  939  git add file_2.txt\n
+  940  git status
+  941  git add file_1.txt file_2.txt
+  942  git commit -m "create new files"
+  943  git status
+  944  git log
+  948  git status
+  949  git add file_1.txt
+  950  git commit -m "step4 changes to file_1.txt"
+  951  git status
+  952  git add file_2.txt
+  953  git commit -m "step5 commit to file_2.txt"
+  954  git log
+  959  git add Read.md\ngit commit -m "Add title and description to Read.md"\n
+  960  git add Read.md
+  961  git add Readme.md
+  962  git commit -m "Added title and description to Read.md"\n
+  964  echo "api-keys.txt" > .gitignore
+  967  git add .gitignore
+  968  git commit -m "Add .gitignore file"
+  972  code .gitignore
+  973  nano .gitignore
+  974  git status
+  976  git status
+  977  git add .gitignore
+  978  git commit -m "Create gitignore"
+  979  git status
+  981  cat .gitignore
+  982  git branch
+  983  git branch feature
+  984  git branch
+  985  git status
+  986  git log
+  987  git switch feature
+  988  git branch
+  989  git switch main
+  990  git branch
+  991  git merge feature
+  992  git branch -d feature
+  993  git branch
+  995  git status
+  996  git log --oneline
+  997  git status
+  998  git checkout 1d8c648
+  999  git checkout 23830bb
+ 1000  git switch -
+ 1004  cd git-practice-tka
+ 1006  git branch
+ 1007  git switch -
+ 1008  git log —oneline
+ 1010  git branch main
+ 1011  git switch main
+ 1024  git branch feature
+ 1025  git branch
+ 1026  git switch feature
+ 1027  git branch
+ 1028  git log
+ 1031  git branch
+ 1032  git add new_features.txt
+ 1033  git commit -m "Add empty file"
+ 1036  git add .
+ 1037  git commit -m "Commit changes step7"
+ 1038  git switch main
+ 1039  git branch
+ 1042  git commit -m "added a line of text step2"
+ 1043  git add
+ 1044  git add .
+ 1045  git commit -m "added a line of text step2"
+ 1046  git switch main
+ 1047  git merge feature
+ 1048  git commit
+ 1049  git add file_1.txt
+ 1050  git commit -m "Add a line of text to file_1.txt"
+ 1053  git switch main
+ 1054  git log
+ 1055  git branch
+ 1056  git merge feature
+ 1058  git add file_1.txt
+ 1059  git commit -m "Update file_1.txt"
+ 1060  git add new_features.txt
+ 1061  git commit -m "Update file_1.txt"
+ 1062  git switch feature
+ 1063  git branch
+ 1065  git add new_features.txt
+ 1066  git commit -m "updated branch of new_features.txt"
+ 1067  git switch main
+ 1068  git branch
+ 1070  git add new_features.txt
+ 1071  git commit -m "updated new_features.txt"
+ 1072  git remote add origin git@github.com:t-anderson21/git-practice-t-anderson21.git
+ 1073  git push -u origin main
+ 1074  git branch
+ 1076  git switch feature
+ 1078  git switch main
+ 1079  git merge feature
+ 1080  git commit -m "Merge feature branch into main"
+ 1081  git branch -d feature\n
+ 1082  git branch
+ 1085  git remote -v
+ 1086  git push
+ 1089  git clone git@github.com:Stat386-Winter2024/lab-02-t-anderson21.git
+ 1091  git clone git@github.com:t-anderson21/git-practice-fork-of-talmage-s-code.git
+ 1093  cd git-practice-fork-of-talmage-s-code
+ 1096  git add.
+ 1097  git add .
+ 1098  git commit -m 'create new file in TH cloned repositor'
+ 1099  git branch featuretka
+ 1100  git branch
+ 1101  git switch featuretka
+ 1102  git branch
+ 1105  git commit -m 'create new file in TH cloned repositor'
+ 1106  git add .
+ 1107  git commit -m 'create new file in TH cloned repositor'
+ 1108  git push origin featuretka
+ 1110  git pull
+ 1113  cd git-practice-tka
+ 1114  git log --online >gitlog.txt
+ 1115  git log --oneline >gitlog.txt
+ 1117  nano gitlog.txt
+ 1118  history | grep git > history.txt

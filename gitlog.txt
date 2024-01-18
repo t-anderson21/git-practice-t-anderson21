@@ -1,0 +1,18 @@
+9946c81 updated readme
+6a886e5 change by Dr. Tass 1/18
+fefe3ff Merge feature branch into main
+39d29c9 updated new_features.txt
+5a66c4b updated branch of new_features.txt
+80abf5d Update file_1.txt
+a3fac17 Add a line of text to file_1.txt
+d449502 added a line of text step2
+5ad45c6 Commit changes step7
+446f3c1 Add empty file
+6fcfd08 Create gitignore
+1d8c648 Add .gitignore file
+76ef458 Added title and description to Read.md
+de8aa88 step5 commit to file_2.txt
+b7e0924 step4 changes to file_1.txt
+461a0c4 create new files
+839b423 Rename file
+23830bb First commit
