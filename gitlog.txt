@@ -1,3 +1,6 @@
+394d622 Merge pull request #1 from Talmage-Hilton/main
+17ba0f8 Update file_2.txt
+14469ff history and log files
 9946c81 updated readme
 6a886e5 change by Dr. Tass 1/18
 fefe3ff Merge feature branch into main
