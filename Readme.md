@@ -1,5 +1,5 @@
 Talmage's Repository
 
-(probably fill this in during class)
+This is for practice using Git in Stat_386 with Dr. Tass
 
-only have 3 total files so far :0
+I am up to 5 total files!
